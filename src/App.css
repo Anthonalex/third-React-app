@@ -1,0 +1,14 @@
+.home-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  background: rgba(210, 105, 30, 0.192);
+  border-radius: 9px;
+  margin: 0px 50px;
+}
+
+.home-page-container p {
+  color: rgba(139, 37, 37, 0.699);
+}
