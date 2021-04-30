@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import MemoryGame from "./components/MemoryGame/memoryGame";
 import WeatherTracker from "./components/WeatherTracker/weatherTracker";
+import CityName from "./components/WeatherTracker/page/cityName";
 
 function App() {
   return (
@@ -28,8 +29,11 @@ function App() {
           <Route path="/MemoryGame">
             <MemoryGame />
           </Route>
-          <Route path="/WeatherTracker">
+          <Route exact path="/WeatherTracker">
             <WeatherTracker />
+          </Route>
+          <Route exact path="/WeatherTracker/:cityName">
+            <CityName />
           </Route>
         </Switch>
       </div>
