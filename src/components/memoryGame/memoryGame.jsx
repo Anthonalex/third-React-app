@@ -6,20 +6,29 @@ export default function MeomoryGame() {
   const [data, setData] = useState(dataBase);
   const [score, setScore] = useState(0);
 
-  const handleClick = (e) => {
+  const resetData = (data) => {
     data.map((el) => {
+      el.clicked = false;
+      return el;
+    });
+  };
+
+  const handleClick = (e) => {
+    const newData = data.map((el) => {
       if (el.image === e.target.src) {
         if (el.clicked === false) {
           setScore(score + 1);
           el.clicked = true;
         } else if (el.clicked === true) {
           setScore(0);
+          resetData(data);
         }
       }
-      return;
+      return el;
     });
 
-    data.sort((a, b) => 0.5 - Math.random());
+    newData.sort((a, b) => 0.5 - Math.random());
+    setData(newData);
     RenderData();
   };
 
@@ -27,7 +36,7 @@ export default function MeomoryGame() {
     return data.map((el) => {
       return (
         <div key={el.id}>
-          <img src={el.image} alt={el.name} onClick={handleClick} id={el.id} />
+          <img src={el.image} alt={el.name} onClick={handleClick} />
         </div>
       );
     });
