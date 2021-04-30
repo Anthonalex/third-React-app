@@ -104,4 +104,40 @@ export const citiesData = [
     image:
       "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
   },
+  {
+    id: 2,
+    name: "NewYork",
+    image:
+      "https://images.unsplash.com/photo-1448317846460-907988886b33?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    id: 3,
+    name: "Yerevan",
+    image:
+      "https://images.unsplash.com/photo-1601132231377-380b7d2ac800?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    id: 4,
+    name: "Paris",
+    image:
+      "https://images.unsplash.com/43/2EsHHwmRswlLYnaG07Ew_paris-motionbug.com.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    id: 5,
+    name: "Moscow",
+    image:
+      "https://images.unsplash.com/photo-1539280396269-be5f48dcbcce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80",
+  },
+  {
+    id: 6,
+    name: "Tokyo",
+    image:
+      "https://images.unsplash.com/photo-1543528074-c13075cbe5d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1351&q=80",
+  },
+  {
+    id: 7,
+    name: "Dubai",
+    image:
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  },
 ];
