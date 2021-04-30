@@ -12,3 +12,7 @@
 .home-page-container p {
   color: rgba(139, 37, 37, 0.699);
 }
+
+a {
+  text-decoration: none;
+}

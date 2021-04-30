@@ -22,14 +22,14 @@ function App() {
         </nav>
 
         <Switch>
+          <Route exact={true} path="/">
+            <Home />
+          </Route>
           <Route path="/MemoryGame">
             <MemoryGame />
           </Route>
           <Route path="/WeatherTracker">
             <WeatherTracker />
-          </Route>
-          <Route path="/">
-            <Home />
           </Route>
         </Switch>
       </div>

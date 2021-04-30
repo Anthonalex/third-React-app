@@ -1,0 +1,14 @@
+img {
+  width: 400px;
+  height: 250px;
+}
+
+.cities-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cities-box {
+  margin: 10px;
+}
