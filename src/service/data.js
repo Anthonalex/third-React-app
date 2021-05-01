@@ -106,9 +106,9 @@ export const citiesData = [
   },
   {
     id: 2,
-    name: "NewYork",
+    name: "Barcelona",
     image:
-      "https://images.unsplash.com/photo-1448317846460-907988886b33?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
   },
   {
     id: 3,
@@ -139,5 +139,11 @@ export const citiesData = [
     name: "Dubai",
     image:
       "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    id: 8,
+    name: "Madrid",
+    image:
+      "https://images.unsplash.com/photo-1543783207-ec64e4d95325?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
   },
 ];

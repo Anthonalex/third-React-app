@@ -16,11 +16,10 @@ export default function CityName() {
       })
       .then((weatherData) => {
         setFetchedData(weatherData.main);
-        
       });
   }, [cityName]);
 
-  const RenderCities = () => {
+  const RenderCityImage = () => {
     return citiesData.map((el) => {
       if (cityName === el.name) {
         return (
@@ -32,7 +31,6 @@ export default function CityName() {
       }
     });
   };
-
 
   const RenderData = () => {
     return (
@@ -73,7 +71,7 @@ export default function CityName() {
 
   return (
     <div>
-      <RenderCities />
+      <RenderCityImage />
       <RenderData />
     </div>
   );
