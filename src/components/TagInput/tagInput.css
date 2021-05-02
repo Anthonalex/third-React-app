@@ -1,0 +1,46 @@
+.tag-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  flex-wrap: wrap;
+}
+
+.tag-input {
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+  width: 100%;
+  background: none;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.remove-btn {
+  border-radius: 50%;
+  background: rgb(255, 0, 0);
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  margin-left: 2px;
+}
+
+.ul-input {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0 25px;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.tag-input:focus {
+  outline: 0;
+}
+
+.tag-input-li-container {
+  background: none;
+  flex-grow: 1;
+  padding: 0;
+}

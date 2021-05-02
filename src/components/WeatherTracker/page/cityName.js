@@ -28,6 +28,8 @@ export default function CityName() {
             <img src={el.image} alt={el.name} />
           </div>
         );
+      } else {
+        return null;
       }
     });
   };
