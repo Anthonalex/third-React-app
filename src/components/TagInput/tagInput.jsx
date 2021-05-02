@@ -29,7 +29,7 @@ export default function TagInput() {
     <div>
       <h1>Tag Input</h1>
       <div className="tag-input-container">
-        <p>Please type your tag then press Enter</p>
+        <p>Please type your tag, then press Enter</p>
         <ul className="ul-input">
           {tags.map((el, idx) => (
             <li
