@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40vh;
   flex-wrap: wrap;
 }
 
@@ -18,7 +17,7 @@
 
 .remove-btn {
   border-radius: 50%;
-  background: rgb(255, 0, 0);
+  background: none;
   cursor: pointer;
   border: none;
   color: #fff;
@@ -32,7 +31,7 @@
   list-style-type: none;
   padding: 0;
   width: 100%;
-  border: 1px solid #000;
+  border: 1px solid rgba(0, 0, 0, 0.301);
 }
 
 .tag-input:focus {
@@ -43,4 +42,14 @@
   background: none;
   flex-grow: 1;
   padding: 0;
+}
+
+.li-tags {
+  display: flex;
+  margin: 4px 4px;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 2px;
+  padding: 0 4px;
 }
