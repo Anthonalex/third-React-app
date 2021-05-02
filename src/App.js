@@ -4,6 +4,7 @@ import MemoryGame from "./components/MemoryGame/memoryGame";
 import WeatherTracker from "./components/WeatherTracker/weatherTracker";
 import CityName from "./components/WeatherTracker/page/cityName";
 import TagInput from "./components/TagInput/tagInput";
+import ColorPicker from "./components/ColorPicker/colorPicker";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             <li>
               <Link to="/tagInput">Tag Input</Link>
             </li>
+            <li>
+              <Link to="/colorPicker">Color Picker App</Link>
+            </li>
           </ul>
         </nav>
 
@@ -41,6 +45,9 @@ function App() {
           </Route>
           <Route exact path="/tagInput">
             <TagInput />
+          </Route>
+          <Route exact path="/colorPicker">
+            <ColorPicker />
           </Route>
         </Switch>
       </div>
