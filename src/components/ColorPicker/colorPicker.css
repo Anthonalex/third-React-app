@@ -27,3 +27,12 @@
   justify-content: center;
   align-items: center;
 }
+
+.rgba-code-container {
+  border: 1px solid rgba(0, 0, 0, 0.103);
+  border-radius: 4px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

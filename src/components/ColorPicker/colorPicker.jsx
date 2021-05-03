@@ -71,7 +71,7 @@ export default function ColorPicker() {
             className="color-input"
             onChange={handleChange}
           />
-          <div>
+          <div className='rgba-code-container'>
             <p>
               rgba({redValue}, {greenValue}, {blueValue}, {alphaValue})
             </p>
