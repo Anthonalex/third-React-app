@@ -9,14 +9,30 @@ export default function ColorPicker() {
   const [alphaValue, setAlphaValue] = useState(0);
 
   const handleChange = (e) => {
-    setRedValue(Number(e.target.value));
+    if (e.target.id === "redInput") {
+      setRedValue(Number(e.target.value));
+    }
+    if (e.target.id === "greenInput") {
+      setGreenValue(Number(e.target.value));
+    }
+    if (e.target.id === "blueInput") {
+      setBlueValue(Number(e.target.value));
+    }
+    if (e.target.id === "alphaInput") {
+      setAlphaValue(Number(e.target.value));
+    }
   };
 
   return (
     <div>
       <h1>Color Picker</h1>
       <div className="main-container">
-        <div className="color-picker"></div>
+        <div
+          className="color-picker-redner-box"
+          style={{
+            backgroundColor: `rgba(${redValue}, ${greenValue}, ${blueValue}, ${alphaValue})`,
+          }}
+        ></div>
         <div className="range-container-box">
           Red value : {redValue}
           <input
@@ -27,7 +43,7 @@ export default function ColorPicker() {
             className="color-input"
             onChange={handleChange}
           />
-          Green value : {redValue}
+          Green value : {greenValue}
           <input
             id="greenInput"
             type="range"
@@ -36,7 +52,7 @@ export default function ColorPicker() {
             className="color-input"
             onChange={handleChange}
           />
-          Blue value : {redValue}
+          Blue value : {blueValue}
           <input
             id="blueInput"
             type="range"
@@ -45,12 +61,12 @@ export default function ColorPicker() {
             className="color-input"
             onChange={handleChange}
           />
-          Alpha value : {redValue}
+          Alpha value : {alphaValue}
           <input
             id="alphaInput"
             type="range"
             min="1"
-            max="500"
+            max="10"
             className="color-input"
             onChange={handleChange}
           />
