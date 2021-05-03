@@ -6,7 +6,7 @@ export default function ColorPicker() {
   const [redValue, setRedValue] = useState(0);
   const [greenValue, setGreenValue] = useState(0);
   const [blueValue, setBlueValue] = useState(0);
-  const [alphaValue, setAlphaValue] = useState(0);
+  const [alphaValue, setAlphaValue] = useState(1);
 
   const handleChange = (e) => {
     if (e.target.id === "redInput") {
