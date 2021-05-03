@@ -39,7 +39,7 @@ export default function ColorPicker() {
             id="redInput"
             type="range"
             min="1"
-            max="500"
+            max="255"
             className="color-input"
             onChange={handleChange}
           />
@@ -48,7 +48,7 @@ export default function ColorPicker() {
             id="greenInput"
             type="range"
             min="1"
-            max="500"
+            max="255"
             className="color-input"
             onChange={handleChange}
           />
@@ -57,7 +57,7 @@ export default function ColorPicker() {
             id="blueInput"
             type="range"
             min="1"
-            max="500"
+            max="255"
             className="color-input"
             onChange={handleChange}
           />
