@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.color-picker {
+  width: 350px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  border-radius: 4px;
+}
+
+.color-input {
+  margin: 8px;
+  width: 100%;
+  cursor: grab;
+}
+
+.range-container-box {
+  margin-top: 12px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
