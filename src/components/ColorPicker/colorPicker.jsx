@@ -64,9 +64,10 @@ export default function ColorPicker() {
           Alpha value : {alphaValue}
           <input
             id="alphaInput"
+            step="0.1"
             type="range"
-            min="1"
-            max="10"
+            min="0.1"
+            max="1"
             className="color-input"
             onChange={handleChange}
           />
